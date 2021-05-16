@@ -8,7 +8,7 @@ plugins {
 
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: "androidx.navigation.safeargs.kotlin"
+apply plugin: "androidx.navigation.safeargs"
 
 
 
@@ -85,6 +85,7 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
     implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
     implementation "androidx.navigation:navigation-compose:1.0.0-alpha10"
+    implementation "androidx.navigation:navigation-runtime-ktx:2.3.5"
 
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation 'com.google.code.gson:gson:2.8.6'
